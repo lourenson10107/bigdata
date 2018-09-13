@@ -1,9 +1,12 @@
 # Cara penginstalan Python di Windows
 
 Langkah pertama Download pyton yang terbaru di situs resmi python (python.org), Setelah download selesai, kita akan mendapatkan file python.
+
 Selanjutnya buka file tersebut dan akan muncul tutorial penginstalan, kemudian pilih pengguna “all user”
 Kemudian pilih lokasi penginstalan, jika sudak klik next.
+
 Selanjutnya kostumisasi, tahap ini kita akan menentukan fitur-fitur yang akan diinstal, jika sudah klik next, maka proses instalasi akan berjalan.
+
 Tunggu sampai proses selesai.
 
 dan untuk uji cobanya bisa dilakukan dengan menggunakan CMD dengan memasukan perintah "python"
