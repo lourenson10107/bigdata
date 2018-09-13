@@ -14,10 +14,10 @@ Karna saya menggunakan windows pada saat penginstalan dan di seting ke tempat pe
     Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
-
-## 3.1. Menggunakan Python sebagai Kalkulator
-### 3.1.1. Angka
-#### contoh penulisan perintah seperti di bawah ini sebagai kalkulator dengan tipe angka
+## Bab 3. Pengenalan Informal terhadap Python
+### 3.1. Menggunakan Python sebagai Kalkulator
+#### 3.1.1. Angka
+##### contoh penulisan perintah seperti di bawah ini sebagai kalkulator dengan tipe angka
     >>> 2 + 2
     4
     >>> 50 - 5*6
@@ -27,8 +27,8 @@ Karna saya menggunakan windows pada saat penginstalan dan di seting ke tempat pe
     >>> 8 / 5  # division always returns a floating point number
     1.6
     
-### 3.1.2. String
-#### Python juga dapat memanipulasi string
+#### 3.1.2. String
+##### Python juga dapat memanipulasi string
     >>> 'spam eggs'  # single quotes
     'spam eggs'
     >>> 'doesn\'t'  # use \' to escape the single quote...
@@ -42,8 +42,8 @@ Karna saya menggunakan windows pada saat penginstalan dan di seting ke tempat pe
     >>> '"Isn\'t," they said.'
     '"Isn\'t," they said.'
 
-### 3.1.3. Daftar
-#### contoh  penulisan agar Python mengetahui sejumlah tipe data majemuk yang digunakan untuk mengelompokkan nilai-nilai lainnya
+#### 3.1.3. Daftar
+##### contoh  penulisan agar Python mengetahui sejumlah tipe data majemuk yang digunakan untuk mengelompokkan nilai-nilai lainnya
 yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda kurung siku.
 
     >>> squares = [1, 4, 9, 16, 25]
@@ -64,7 +64,7 @@ yang dapat ditulis sebagai daftar nilai yang dipisahkan koma (item) antara tanda
 
     squares[-3:]  # slicing returns a new list
     
-## 3.2. Langkah Pertama Menuju Pemrograman
+### 3.2. Langkah Pertama Menuju Pemrograman
 Contoh penulisan sub-urutan awal deret Fibonacci sebagai berikut:
 
     >>> # Fibonacci series:
