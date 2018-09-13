@@ -1,4 +1,4 @@
-#Cara penginstalan Python
+# Cara penginstalan Python
 
 Langkah pertama Download pyton yang terbaru di situs resmi python (python.org), Setelah download selesai, kita akan mendapatkan file python.
 Selanjutnya buka file tersebut dan akan muncul tutorial penginstalan, kemudian pilih pengguna “all user”
