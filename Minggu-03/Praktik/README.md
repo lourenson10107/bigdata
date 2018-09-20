@@ -71,9 +71,32 @@ atau dengan cara lain :
     >>> hitung = [x**2 for x in range(10)]
     >>> hitung
     [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+
+contoh lainnya :
+
+menggambungkan data atau elemen dari dua daftar yang tidak sama
+     
+    >>> [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
     
+hasilnya :
+
+    [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
     
-    
+ dan sama dengan hasilnya jika menggunakan perintah seperti ini 
+ 
+    >>> gabung = []
+    >>> for x in [1,2,3]:
+    ...     for y in [3,1,4]:
+    ...             if x !=y:
+    ...                     gabung.append((x, y))
+    ...
+hasilnya :
+
+    >>> gabung
+    [(1, 3), (1, 4), (2, 3), (2, 1), (2, 4), (3, 1), (3, 4)]
+
+
     
     
     
