@@ -3,7 +3,7 @@
 ## Hirarki Analytics
 bisa di lihat pada gambar di bawah ini
 
-<img src="images/git-tut3.png">
+<img src="img/Hirarki.png">
 
 ## Membangun Data Foundations & Warehouse
 terlepas dari tujuan/ tingkat minat dalam mempelajari teknik data /data engineering, sangat penting untuk mengetahui dengan pasti apa itu
