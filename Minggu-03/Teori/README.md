@@ -24,3 +24,46 @@ menunjukkan bagaimana tim teknik data Airbnb membangun pipa data khusus untuk me
 model pembelajaran mesin pemberian skor offline membutuhkan banyak pekerjaan rekayasa data di muka. Khususnya, banyak tugas yang terkait dengan rekayasa fitur, bangunan, dan data pelatihan backfilling menyerupai karya rekayasa data.
 
 ## ETL: Extract, Transform, dan Load
+kepanjangan dari *etl* adalah EKSTRACT, TRANSFORM, LOAD
+1. **EXTRACT :** adalah langkah di mana sensor menunggu sumber data hulu ke darat (misalnya sumber hulu bisa berupa mesin atau log yang dibuat pengguna, salinan basis data relasional, dataset eksternal ... dll). Setelah tersedia, kami mengangkut data dari lokasi sumber mereka ke transformasi lebih lanjut.
+2. **TRANSFORM :** adalah jantung dari pekerjaan ETL mana pun, di mana kami menerapkan logika bisnis dan melakukan tindakan seperti penyaringan, pengelompokan, dan agregasi untuk menerjemahkan data mentah ke dalam dataset analisis siap. Langkah ini membutuhkan banyak pemahaman bisnis dan pengetahuan domain.
+3. **LOAD :** memuat data yang diproses dan mengangkutnya ke tujuan akhir.
+
+**berikut contoh gambar proses ETL**
+
+<img src="images/git-tut3.png">
+
+## Dua Paradigma: SQL- vs JVM-Centric ETL
+terdapat 2 paradigma yang digunakan untuk membangun *etl* :
+1. **ETL JVM-sentris** biasanya dibangun dalam bahasa berbasis JVM (seperti Java atau Scala). Saluran pipa data teknik dalam bahasa JVM ini sering melibatkan transformasi data pemikiran dengan cara yang lebih penting, misalnya dalam hal pasangan nilai kunci. Menulis Fungsi yang Ditetapkan Pengguna (UDFs) kurang menyakitkan karena seseorang tidak perlu menulisnya dalam bahasa yang berbeda, dan pekerjaan pengujian dapat lebih mudah untuk alasan yang sama. Paradigma ini cukup populer di kalangan insinyur.
+2. **ETL SQL-sentris** biasanya dibangun dalam bahasa seperti SQL, Presto, atau Hive. Pekerjaan ETL sering didefinisikan dengan cara deklaratif , dan hampir semuanya berpusat di sekitar SQL dan tabel. Menulis UDFs terkadang merepotkan karena seseorang harus menuliskannya dalam bahasa yang berbeda (misalnya Java atau Python), dan pengujian dapat menjadi lebih menantang karena ini. Paradigma ini populer di kalangan ilmuwan data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
