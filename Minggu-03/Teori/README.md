@@ -13,7 +13,7 @@ Diantar banyak hal berharga yang dilakukan para insinyur data, salah satu keahli
 
 **contoh gambar data yang di ubah dari data mentah menjadi data yang baik**
 
-<img src="img/blob/master/Proses-Etl.png">
+<img src="https://github.com/lourenson10107/img/blob/master/Proses-Etl.png">
 
 contoh spesifik yang menyoroti peran data warehouse untuk berbagai perusahaan dalam berbagai tahap :
 ### 1. Membangun Analytics di 500px :
