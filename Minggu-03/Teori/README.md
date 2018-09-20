@@ -31,19 +31,12 @@ kepanjangan dari *etl* adalah EKSTRACT, TRANSFORM, LOAD
 
 **berikut contoh gambar proses ETL**
 
-<img src="images/git-tut3.png">
+<img src="https://github.com/lourenson10107/img/blob/master/Etl.png">
 
 ## Dua Paradigma: SQL- vs JVM-Centric ETL
 terdapat 2 paradigma yang digunakan untuk membangun *etl* :
 1. **ETL JVM-sentris** biasanya dibangun dalam bahasa berbasis JVM (seperti Java atau Scala). Saluran pipa data teknik dalam bahasa JVM ini sering melibatkan transformasi data pemikiran dengan cara yang lebih penting, misalnya dalam hal pasangan nilai kunci. Menulis Fungsi yang Ditetapkan Pengguna (UDFs) kurang menyakitkan karena seseorang tidak perlu menulisnya dalam bahasa yang berbeda, dan pekerjaan pengujian dapat lebih mudah untuk alasan yang sama. Paradigma ini cukup populer di kalangan insinyur.
 2. **ETL SQL-sentris** biasanya dibangun dalam bahasa seperti SQL, Presto, atau Hive. Pekerjaan ETL sering didefinisikan dengan cara deklaratif , dan hampir semuanya berpusat di sekitar SQL dan tabel. Menulis UDFs terkadang merepotkan karena seseorang harus menuliskannya dalam bahasa yang berbeda (misalnya Java atau Python), dan pengujian dapat menjadi lebih menantang karena ini. Paradigma ini populer di kalangan ilmuwan data.
-
-
-
-
-
-
-
 
 
 
