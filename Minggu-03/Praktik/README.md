@@ -157,7 +157,7 @@ dibawah ini :
     
 yang mana "a" adalah nama variabelnya.
 
-## 5.3. Tuples dan Sequences
+# 5.3. Tuples dan Sequences
 
 Karena Python adalah bahasa yang sedang berkembang, tipe data sequence lainnya dapat 
 ditambahkan. Ada juga tipe data sequence standar lainnya seperti  : tuple.
@@ -173,6 +173,7 @@ Sebuah tuple terdiri dari sejumlah nilai yang dipisahkan oleh koma, misalnya:
     ... u = t, (1, 2, 3, 4, 5)
     >>> u
     ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
+    
 
 pada tupel keluaran selalu diapit dalam tanda kurung, sehingga tuple yang disarangkan 
 ditafsirkan dengan benar, contoh penulisan yang salah :
@@ -189,8 +190,37 @@ membuat tuple yang berisi objek yang bisa berubah, seperti daftar.
 Meskipun tuples mungkin tampak mirip dengan daftar, tuples sering digunakan dalam 
 situasi yang berbeda dan untuk tujuan yang berbeda. Tuples tidak dapat diubah
 
+# 5.4. Set
+Python juga termasuk tipe data untuk set . Satu set adalah koleksi tak berurutan tanpa elemen duplikat. Penggunaan dasar termasuk pengujian keanggotaan dan menghilangkan entri duplikat. Mengatur objek juga mendukung operasi matematika seperti penyatuan, persimpangan, perbedaan, dan perbedaan simetris.
 
-## 5.5. Dictionaries
+**contoh untuk melihat data yang sama tak telihat dua kali ketika di tampilkan, dan juga mengecek apakah data
+tersebut memang ada atau tidak**
+
+    >>> warna = {'merah', 'orange', 'biru', 'hijau', 'hitam', 'merah'}
+    >>> print(warna)
+    {'biru', 'hitam', 'orange', 'merah', 'hijau'}
+    >>> 'merah' in warna
+    True
+    >>> 'kuning' in warna
+    False
+    
+**contoh operasi pada huruf-huruf yang unik pada dua kata**
+
+    >>> a = set('abracadabra')
+    >>> b = set('alacazam')
+    >>> a                                  # huruf unik pada a
+    {'a', 'r', 'b', 'c', 'd'}
+    >>> a - b                              # huruf yang tidak ada pada b
+    {'r', 'd', 'b'}
+    >>> a | b                              # gabungan huruf antara a dan b
+    {'a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'}
+    >>> a & b                              # huruf yang ada atau sama pada a dan b
+    {'a', 'c'}
+    >>> a ^ b                              # huruf dalam a dan b yang tidak ada/ sama di keduanya
+    {'r', 'd', 'b', 'm', 'z', 'l'}
+
+
+# 5.5. Dictionaries
 Tipe data lain yang berguna dibangun ke dalam Python adalah dictionary, dictionary kadang-kadang ditemukan dalam bahasa lain sebagai “associative memories” or “associative arrays”. Tidak seperti sequences, yang diindeks oleh berbagai angka, dictionary diindeks oleh kunci , yang bisa menjadi jenis yang tidak berubah,string dan angka selalu bisa menjadi kunci.\
 
 contoh kecil menggunakan dictionary :
@@ -304,13 +334,3 @@ Objek Sequences dapat dibandingkan dengan objek lain dengan jenis Sequences yang
     (1, 2, ('aa', 'ab'))   < (1, 2, ('abc', 'a'), 4)
 
 Perhatikan bahwa membandingkan objek dari berbagai jenis dengan <atau >legal asalkan objek memiliki metode perbandingan yang tepat.
-
-
-
-
-
-
-
-
-
-
