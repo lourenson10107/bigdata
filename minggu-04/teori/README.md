@@ -16,7 +16,8 @@ pola ini berfokus pada pembuatan tabelyang di normalisasi, khususnya tabel fakta
 dimensi.
 
 **contoh gambar Skema Star**
-.........
+
+<img src="https://github.com/lourenson10107/img/blob/master/skema-star.png">
 
 
 
