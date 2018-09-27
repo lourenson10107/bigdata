@@ -108,6 +108,13 @@ Pengguna paket dapat mengimpor modul individual dari paket, misalnya:
     import sound.effects.echo
 
 
+### 7. Input dan Output
+
+### 8.
+
+### 9.
+
+
 
 
 
