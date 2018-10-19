@@ -10,7 +10,7 @@ Seperti yang telah kita pelajari dari Bagian II , DAG Aliran Udara dapat menjadi
 
 Diskusi kami sejauh ini terbatas pada desain pipa tunggal yang berdiri sendiri, tetapi kami dapat menerapkan prinsip yang sama untuk pembuatan saluran pipa -  cara untuk menghasilkan DAG secara dinamis dan dinamis dengan cepat. Ini pada dasarnya adalah apa yang dilakukan oleh kerangka kerja rekayasa data : ia menghasilkan berbagai instantiasi dari DAG Aliran Udara yang mengotomatisasi alur kerja data. Berikut adalah bagaimana Maxime, penulis asli Airflow menggambarkannya :
 
-    Untuk membangun alur kerja secara dinamis dari kode ... Contoh yang sangat sederhana adalah skrip Aliran Air yang membaca file konfigurasi YAML dengan daftar nama tabel, dan membuat sedikit alur kerja untuk setiap tabel, yang dapat melakukan hal-hal seperti memuat tabel ke dalam target database, mungkin menerapkan aturan dari file konfigurasi di sekitar pengambilan sampel, retensi data, penganoniman ... Sekarang Anda memiliki abstraksi ini ... Anda dapat membuat potongan alur kerja baru tanpa melakukan banyak pekerjaan. Ternyata ada banyak sekali kasus penggunaan untuk jenis pendekatan ini.
+*Untuk membangun alur kerja secara dinamis dari kode ... Contoh yang sangat sederhana adalah skrip Aliran Air yang membaca file   konfigurasi YAML dengan daftar nama tabel, dan membuat sedikit alur kerja untuk setiap tabel, yang dapat melakukan hal-hal seperti memuat tabel ke dalam target database, mungkin menerapkan aturan dari file konfigurasi di sekitar pengambilan sampel, retensi data, penganoniman ... Sekarang Anda memiliki abstraksi ini ... Anda dapat membuat potongan alur kerja baru tanpa melakukan banyak pekerjaan. Ternyata ada banyak sekali kasus penggunaan untuk jenis pendekatan ini.*
 
 **Alat-alat untuk meningkatkan rantai nilai**
 
@@ -36,6 +36,8 @@ Secara umum ada tiga lapis kerangka kerja rekayasa data yang dirancang dengan ba
 3. lapisan keluaran
 
 **seperti Gambar dibawah ini**
+
+<img src="https://github.com/lourenson10107/img/blob/master/pola desain.png">
 
 
 1. **Input:** Ini adalah tempat pengguna akhir menentukan bagaimana DAG mereka harus dikonfigurasi. Pengalaman pengguna sangat penting di sini. Biasanya, input bisa berupa file konfigurasi statis (misalnya YAML atau HOCON), atau bisa juga sesuatu yang rumit seperti UI web. Tujuannya di sini adalah untuk menangkap kebutuhan pengguna.
