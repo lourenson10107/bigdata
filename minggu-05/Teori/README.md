@@ -35,7 +35,7 @@ Secara umum ada tiga lapis kerangka kerja rekayasa data yang dirancang dengan ba
 2. lapisan pemrosesan data
 3. lapisan keluaran
 
-**seperti Gambar dibawah ini**
+**Seperti gambar dibawah ini**
 
 <img src="https://github.com/lourenson10107/img/blob/master/pola desain.png">
 
