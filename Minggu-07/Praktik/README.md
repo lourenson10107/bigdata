@@ -55,6 +55,7 @@ seperti contoh dibawah ini *df* akan menjadi objek dataframe yang akan disimpan 
     df
     
 hasilnya : 
+
 <img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/coba2.png">
 
 ### Prepare Data
@@ -127,7 +128,9 @@ nilai maksimum kolom Kelahiran di bagian sebelumnya.
 maka keluaran/ output seperti ini:
 
 Nama-nama	Kelahiran
+
 4	Mel	973
+
 <img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/grafik.png">
 
 *dalam kasus ini grafik tidak muncul, mungkin karna penginstalan libnya belum benar*
