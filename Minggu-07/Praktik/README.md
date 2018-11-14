@@ -69,7 +69,7 @@ untuk memeriksa data dari kolom kelahiran
 
 hasilnya outpunya bisa dilihat :
 
-<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/prepare.png>
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/prepare.png">
 
 ### Analyze Data
 
