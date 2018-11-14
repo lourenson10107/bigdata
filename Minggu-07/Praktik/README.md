@@ -14,7 +14,7 @@ Contoh berikut menunjukkan sebuah kamus berisi dua kunci, Name dan Age, dan daft
 
 hasil yang keluar seperti ini :
 
-<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/coba1.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/dataframe.png">
 
 
 ### Series
@@ -26,7 +26,7 @@ hasil yang keluar seperti ini :
     
 hasil output :
 
-<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/series.png">
 
 
 # Pelajaran 1
@@ -45,7 +45,7 @@ untuk menggambungkan data bisa menggunakan perintah *zip*
 
 **hasil yang di kerjakan :**
 
-<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/coba1.png">
 
 
 seperti contoh dibawah ini *df* akan menjadi objek dataframe yang akan disimpan dengan format yang mirip seperti tabel sql
@@ -55,7 +55,7 @@ seperti contoh dibawah ini *df* akan menjadi objek dataframe yang akan disimpan 
     df
     
 hasilnya : 
-<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/coba2.png">
 
 ### Prepare Data
 untuk memeriksa tipe data 
@@ -68,7 +68,7 @@ untuk memeriksa data dari kolom kelahiran
 
 hasilnya outpunya bisa dilihat :
 
-<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/prepare.png>
 
 ### Analyze Data
 
@@ -91,7 +91,7 @@ hasil :
 
 atau bisa liat gambar praktik yang di kerjakan :
 
-<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/sorted.png">
 
 
 ### Present Data
@@ -128,9 +128,10 @@ maka keluaran/ output seperti ini:
 
 Nama-nama	Kelahiran
 4	Mel	973
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/grafik.png">
 
-*dalam kasus ini grafik tidak muncul, mungkin karna penginstalan lib nya belum benar*
+*dalam kasus ini grafik tidak muncul, mungkin karna penginstalan libnya belum benar*
 
 hasil pengerjaan bisa dilihat pada gambar dibwah ini :
 
-<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/grps.png">
