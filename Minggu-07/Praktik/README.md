@@ -14,7 +14,7 @@ Contoh berikut menunjukkan sebuah kamus berisi dua kunci, Name dan Age, dan daft
 
 hasil yang keluar seperti ini :
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<img src="https://github.com/lourenson10107/bigdata/blob/master/Minggu-07/img/coba1.png">
 
 
 ### Series
@@ -26,7 +26,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     
 hasil output :
 
-XXXXXXXXXXXXXXXXXxxxxxxxxxx
+<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
 
 
 # Pelajaran 1
@@ -45,7 +45,7 @@ untuk menggambungkan data bisa menggunakan perintah *zip*
 
 **hasil yang di kerjakan :**
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
 
 
 seperti contoh dibawah ini *df* akan menjadi objek dataframe yang akan disimpan dengan format yang mirip seperti tabel sql
@@ -55,7 +55,7 @@ seperti contoh dibawah ini *df* akan menjadi objek dataframe yang akan disimpan 
     df
     
 hasilnya : 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
 
 ### Prepare Data
 untuk memeriksa tipe data 
@@ -67,7 +67,8 @@ untuk memeriksa data dari kolom kelahiran
     df.Births.dtype
 
 hasilnya outpunya bisa dilihat :
-.......................................
+
+<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
 
 ### Analyze Data
 
@@ -90,7 +91,7 @@ hasil :
 
 atau bisa liat gambar praktik yang di kerjakan :
 
-..............................................................
+<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
 
 
 ### Present Data
@@ -132,89 +133,4 @@ Nama-nama	Kelahiran
 
 hasil pengerjaan bisa dilihat pada gambar dibwah ini :
 
-.......................................
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
+<img src="https://github.com/lourenson10107/img/blob/master/Hirarki.png">
