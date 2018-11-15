@@ -59,7 +59,7 @@ kemudian secara otomatis akan menjalankan browser kemudian akan membuka localhos
      jupyter notebook --port 9999
 dalam kasus ini menggunakan port 9999 karena secara default menggunakan port 8888
 
-**Menjalankan notebook server tanpa membuka browser : **
+**Menjalankan notebook server tanpa membuka browser :**
 
     jupyter notebook --no-browser
 
