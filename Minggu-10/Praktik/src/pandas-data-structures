@@ -1,1 +1,21 @@
+>>> import numpy as np
+>>> import pandas as pd
 
+>>> s = pd.Series(np.random.randn(5), index=['a', 'b', 'c', 'd', 'e'])
+>>> s
+a    0.383621
+b    0.472118
+c    0.286304
+d    0.215361
+e   -0.642872
+dtype: float64
+>>> s.index
+Index(['a', 'b', 'c', 'd', 'e'], dtype='object')
+
+>>> pd.Series(np.random.randn(5))
+0    0.510612
+1    0.673710
+2   -1.329856
+3    0.545027
+4    0.319763
+dtype: float64
