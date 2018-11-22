@@ -2,7 +2,7 @@
 
 perlu di perhatikan  sebelum menggunakan struktur data di pandas maka harus mengimport NumPy
 
-## SERI
+## SERIES
 
 **Dari ndarray**
 
