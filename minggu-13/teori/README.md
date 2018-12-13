@@ -1,3 +1,6 @@
+# Pertemuan 13
+## Bab 8: Merestrukturisasi Data menjadi Bentuk Tidy
+
 ```python
 import pandas as pd
 import numpy as np
@@ -10,7 +13,7 @@ state_fruit
 ```
 
 
-
+**hasil yang menjadi output**
 
 <div>
 <style scoped>
